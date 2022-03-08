@@ -1,3 +1,5 @@
+package Operators;
+
 /**
  * this class tells about the various type of operators
  */
@@ -98,7 +100,7 @@ public class Operators {
 
         System.out.println("--------------------------------------------------");
 
-        // Unary Operators : Unary operators are those operators which are applied on a single variable or entity.
+        // Unary Operators.Operators : Unary operators are those operators which are applied on a single variable or entity.
 
         // Unary +, Unary -
         // These operators resembles a number as positive or negative
@@ -145,8 +147,8 @@ public class Operators {
 //        ---------------------------------------------------------------
         System.out.println("-------------------------------------------");
     // Combination of All
-    int f = 5;
-    int dec =  f++ + ++f + ++f + --f + --f; // (5)--6--7--> + (7) --8 --> + (8) ---7--> + (7) ---6--> (6) = 33
+        int f = 5;
+        int dec =  f++ + ++f + ++f + --f + --f; // (5)--6--7--> + (7) --8 --> + (8) ---7--> + (7) ---6--> (6) = 33
         System.out.println(dec); // 33
         System.out.println(f);// 6
 
