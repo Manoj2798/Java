@@ -69,6 +69,23 @@ public class LogicalOperators {
             true    true    false
          */
         //Ex:
+        System.out.println("(i1 == i2) ^ (i1 == i3) : " +((i1 == i2) ^ (i1 == i3))); // This evaluates to true, condition1 = false, condition2 = true.
+        System.out.println("(i1 == i3) ^ (i2 != i4) : " +((i1 == i3) ^ (i2 != i4))); // This evaluates to false, condition1 = true, condition2 = true.
+
+        System.out.println("--------------------ternary operator---------------------");
+        // Ternary operator : It accepts three expressions, one is the condition, other 2 expressions will be selected based on the condition.
+        // expr1 ? expr2 : expr3
+        //if expr1 ---> true, then expr2 will be executed
+        //if expr1 ---> false, then expr3 will be the executed.
+        // it is similar to an if-else control statement.
+
+        int temp = 27;
+        String day = (temp >= 30)?" is a Sunny Day" : " is a windy Day";
+        System.out.println("Today" +day);
+
+        int time = 11;
+        String s = (time >= 12)? "PM":"AM";
+        System.out.println("It is " +time +s);
 
     }
 }
